@@ -8,11 +8,11 @@ class Coslash < Formula
   # `brew audit` rejects url/sha256 inside on_arm/on_intel, so the architecture
   # is resolved here instead.
   if Hardware::CPU.arm?
-    url "https://github.com/centauri-ai/coslash/releases/download/v0.5.0/coslash_v0.5.0_darwin_arm64.tar.gz"
-    sha256 "9ae0139d2a9a2e1ee742075a66638d4a22c90c57b866b7341caeaa748ce12982"
+    url "https://github.com/centauri-ai/coslash/releases/download/v0.5.1/coslash_v0.5.1_darwin_arm64.tar.gz"
+    sha256 "61a8ef69eba3a36f8efbacf9f310d13c61366016431e2025739ba965f045571c"
   else
-    url "https://github.com/centauri-ai/coslash/releases/download/v0.5.0/coslash_v0.5.0_darwin_amd64.tar.gz"
-    sha256 "a4c036a5327a8780e240df6bc7230cff21870d7d9407e215acc73652b83928e1"
+    url "https://github.com/centauri-ai/coslash/releases/download/v0.5.1/coslash_v0.5.1_darwin_amd64.tar.gz"
+    sha256 "5d006661d49f14a1e61dee009146ea2debb4420829a0048b0b132f787da2f6d1"
   end
 
   def install
